@@ -1,0 +1,4 @@
+D:\Software\Projects\Visual Studio project\Task Management System\DAL\bin\Debug\DAL.dll
+D:\Software\Projects\Visual Studio project\Task Management System\DAL\bin\Debug\DAL.pdb
+D:\Software\Projects\Visual Studio project\Task Management System\DAL\obj\Debug\DAL.dll
+D:\Software\Projects\Visual Studio project\Task Management System\DAL\obj\Debug\DAL.pdb
