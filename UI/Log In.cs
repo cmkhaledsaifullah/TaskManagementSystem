@@ -28,7 +28,7 @@ namespace UI
                 label_errmsg.ForeColor=System.Drawing.Color.Red;
             }
 
-            else if(ap.authenticationCheck(textBox_username.Text,textBox_password.Text)
+            else if(ap.authenticationCheck(textBox_username.Text,textBox_password.Text))
             {
                 Home hm=new Home();
                 this.Hide();

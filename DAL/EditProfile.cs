@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DAL;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace BO
 {
@@ -28,7 +29,7 @@ namespace BO
 
             catch (Exception ex)
             {
-
+                MessageBox.Show(ex.Message);
             }
             return username;
         }
@@ -51,7 +52,7 @@ namespace BO
 
             catch (Exception ex)
             {
-
+                MessageBox.Show(ex.Message);
             }
 
         }

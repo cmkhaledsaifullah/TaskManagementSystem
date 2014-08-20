@@ -2,3 +2,7 @@ D:\Software\Projects\Visual Studio project\Task Management System\DAL\bin\Debug\
 D:\Software\Projects\Visual Studio project\Task Management System\DAL\bin\Debug\DAL.pdb
 D:\Software\Projects\Visual Studio project\Task Management System\DAL\obj\Debug\DAL.dll
 D:\Software\Projects\Visual Studio project\Task Management System\DAL\obj\Debug\DAL.pdb
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\TaskManagementSystem\DAL\bin\Debug\DAL.dll
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\TaskManagementSystem\DAL\bin\Debug\DAL.pdb
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\TaskManagementSystem\DAL\obj\Debug\DAL.dll
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\TaskManagementSystem\DAL\obj\Debug\DAL.pdb

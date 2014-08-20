@@ -105,6 +105,7 @@
             this.ToolStripMenuItem_addproject.Name = "ToolStripMenuItem_addproject";
             this.ToolStripMenuItem_addproject.Size = new System.Drawing.Size(184, 22);
             this.ToolStripMenuItem_addproject.Text = "Add Project";
+            this.ToolStripMenuItem_addproject.Click += new System.EventHandler(this.ToolStripMenuItem_addproject_Click);
             // 
             // ToolStripMenuItem_editproject
             // 

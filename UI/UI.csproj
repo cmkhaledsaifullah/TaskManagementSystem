@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add Project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Project.Designer.cs">
+      <DependentUpon>Add Project.cs</DependentUpon>
+    </Compile>
     <Compile Include="Change Password.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
     <Compile Include="Registration.Designer.cs">
       <DependentUpon>Registration.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Add Project.resx">
+      <DependentUpon>Add Project.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Change Password.resx">
       <DependentUpon>Change Password.cs</DependentUpon>
     </EmbeddedResource>

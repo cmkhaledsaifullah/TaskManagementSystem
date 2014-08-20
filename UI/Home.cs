@@ -38,5 +38,11 @@ namespace UI
             Password_Confirmation pc = new Password_Confirmation(username);
             pc.Show();
         }
+
+        private void ToolStripMenuItem_addproject_Click(object sender, EventArgs e)
+        {
+            Add_Project ap = new Add_Project();
+            ap.Show();
+        }
     }
 }
