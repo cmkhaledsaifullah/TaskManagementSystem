@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddProject.cs" />
     <Compile Include="Authintication.cs" />
     <Compile Include="Connection.cs" />
     <Compile Include="EditProfile.cs" />

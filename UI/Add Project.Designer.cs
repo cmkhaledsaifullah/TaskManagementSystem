@@ -123,6 +123,7 @@
             this.button_addproject.TabIndex = 10;
             this.button_addproject.Text = "Add Project";
             this.button_addproject.UseVisualStyleBackColor = true;
+            this.button_addproject.Click += new System.EventHandler(this.button_addproject_Click);
             // 
             // button_search
             // 

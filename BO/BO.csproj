@@ -43,6 +43,7 @@
     <Compile Include="AuthenticationProcedure.cs" />
     <Compile Include="DataShow.cs" />
     <Compile Include="Edit.cs" />
+    <Compile Include="Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchingPeople.cs" />
   </ItemGroup>

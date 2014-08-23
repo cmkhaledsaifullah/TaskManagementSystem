@@ -18,6 +18,8 @@ namespace UI
         LinkLabel[] lbl = new LinkLabel[100];
         int[] counter = new int[3];
         int test = 0;
+        String[] name;
+        String[] uname;
         
         public Add_Project()
         {
@@ -64,8 +66,8 @@ namespace UI
 
             SearchingPeople sp = new SearchingPeople();
             rows = sp.searchResult(textBox_search.Text);
-            String[] name=new String[rows+1];
-            String[] uname=new String[rows+1];
+            name=new String[rows+1];
+            uname=new String[rows+1];
 
              name=sp.peopleDisplay(textBox_search.Text,1) ;
              uname = sp.peopleDisplay(textBox_search.Text,2);
@@ -84,6 +86,33 @@ namespace UI
                 n = n + 40;
             }
 
+        }
+
+        private void button_addproject_Click(object sender, EventArgs e)
+        {
+            if (textBox_projectname.Text.Equals(""))
+            {
+                MessageBox.Show("Please Enter the Project Title");
+            }
+            else
+            {
+                Project pj = new Project();
+                int j = 0;
+                String username1 = uname[counter[j]];
+                String name1 = name[counter[j++]];
+                String username2 = uname[counter[j]];
+                String name2 = name[counter[j++]];
+                String username3 = uname[counter[j]];
+                String name3 = name[counter[j++]];
+                if (username1.Equals(""))
+                {
+                    MessageBox.Show("Please Assign Atleast one people in the project!!!");
+                }
+                else
+                {
+                    pj.addingProject(textBox_projectname.Text, richTextBox_projectdescription.Text, username1, name1, username2, name2, username3, name3);
+                }
+            }
         }
 
 
@@ -309,6 +338,8 @@ namespace UI
                 MessageBox.Show("No. of people maximum for a project is 3!!!");
             }
         }
+
+
 
 
 
