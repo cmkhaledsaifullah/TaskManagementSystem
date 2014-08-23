@@ -14,10 +14,16 @@ namespace UI
     public partial class Edit_Profile : Form
     {
 
-        String username = "110231";
+        String username = "";
 
         public Edit_Profile()
         {
+            InitializeComponent();
+        }
+
+        public Edit_Profile(string username)
+        {
+            this.username = username;
             InitializeComponent();
         }
 
