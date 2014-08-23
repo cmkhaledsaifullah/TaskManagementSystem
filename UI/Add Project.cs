@@ -17,7 +17,7 @@ namespace UI
         int rows = 0;
         int counter = 0;
         LinkLabel[] lbl = new LinkLabel[100];
-        LinkLabel[] lbl_assign=new LinkLabel[3];
+        LinkLabel[] lbl_assign=new LinkLabel[10];
         
         public Add_Project()
         {
@@ -31,7 +31,7 @@ namespace UI
             for (int i = 0; i < 100; i++)
             {
                 lbl[i] = new LinkLabel();
-                if (i < 3)
+                if (i < 10)
                 {
                     lbl_assign[i] = new LinkLabel();
                 }
@@ -309,17 +309,17 @@ namespace UI
 
         private void lbl_assign2Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            listView_search.Controls.Add(lbl_assign[0]);
         }
 
         private void lbl_assign1Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            listView_search.Controls.Add(lbl_assign[1]);
         }
 
         private void lbl_assign0Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            listView_search.Controls.Add(lbl_assign[2]);
         }
 
         
