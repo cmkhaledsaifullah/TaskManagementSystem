@@ -90,29 +90,35 @@ namespace UI
 
         private void button_addproject_Click(object sender, EventArgs e)
         {
-            if (textBox_projectname.Text.Equals(""))
+            String[] token = textBox_projectname.Text.Split();
+            string table="";
+            for (int k = 0; k < token.Length; k++)
             {
-                MessageBox.Show("Please Enter the Project Title");
+                table += token[k];
             }
-            else
-            {
-                Project pj = new Project();
-                int j = 0;
-                String username1 = uname[counter[j]];
-                String name1 = name[counter[j++]];
-                String username2 = uname[counter[j]];
-                String name2 = name[counter[j++]];
-                String username3 = uname[counter[j]];
-                String name3 = name[counter[j++]];
-                if (username1.Equals(""))
+                if (textBox_projectname.Text.Equals(""))
                 {
-                    MessageBox.Show("Please Assign Atleast one people in the project!!!");
+                    MessageBox.Show("Please Enter the Project Title");
                 }
                 else
                 {
-                    pj.addingProject(textBox_projectname.Text, richTextBox_projectdescription.Text, username1, name1, username2, name2, username3, name3);
+                    Project pj = new Project();
+                    int j = 0;
+                    String username1 = uname[counter[j]];
+                    String name1 = name[counter[j++]];
+                    String username2 = uname[counter[j]];
+                    String name2 = name[counter[j++]];
+                    String username3 = uname[counter[j]];
+                    String name3 = name[counter[j++]];
+                    if (username1.Equals(""))
+                    {
+                        MessageBox.Show("Please Assign Atleast one people in the project!!!");
+                    }
+                    else
+                    {
+                        pj.addingProject(table,textBox_projectname.Text, richTextBox_projectdescription.Text, username1, name1, username2, name2, username3, name3);
+                    }
                 }
-            }
         }
 
 

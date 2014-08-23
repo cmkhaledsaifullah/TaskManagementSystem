@@ -57,5 +57,32 @@ namespace DAL
             con.Close();
             return rows;
         }
+
+        public void createProjectTable(string tablename)
+        {
+            Connection cs = new Connection();
+            SqlConnection con = cs.CreateConnection();
+
+            try
+            {
+                String quary = "CREATE TABLE " + tablename +
+                            "("
+                            + "username varchar(255),"
+                            + "name varchar(255),"
+                            + "assaignedwork varchar(255),"
+                            + "duedate varchar(255))";
+
+                SqlCommand cmd = new SqlCommand(quary, con);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Table Created");
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            con.Close();
+
+        }
     }
 }
