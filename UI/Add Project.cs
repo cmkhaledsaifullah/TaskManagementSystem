@@ -16,6 +16,8 @@ namespace UI
         String Username = "";
         int rows = 0;
         LinkLabel[] lbl = new LinkLabel[100];
+        int[] counter = new int[3];
+        int test = 0;
         
         public Add_Project()
         {
@@ -91,6 +93,7 @@ namespace UI
             if (listView_assaignedpeople.Controls.Count<3)
             {
                 listView_assaignedpeople.Controls.Add(lbl[14]);
+                counter[test++] = 14;
             }
 
             else
@@ -105,6 +108,7 @@ namespace UI
             {
 
                 listView_assaignedpeople.Controls.Add(lbl[13]);
+                counter[test++] = 13;
             }
 
             else
@@ -118,6 +122,7 @@ namespace UI
             if (listView_assaignedpeople.Controls.Count<3)
             {
                 listView_assaignedpeople.Controls.Add(lbl[12]);
+                counter[test++] = 12;
             }
 
             else
@@ -132,6 +137,7 @@ namespace UI
             {
 
                 listView_assaignedpeople.Controls.Add(lbl[11]);
+                counter[test++] = 11;
             }
 
             else
@@ -146,6 +152,7 @@ namespace UI
             {
 
                 listView_assaignedpeople.Controls.Add(lbl[10]);
+                counter[test++] = 10;
             }
 
             else
@@ -160,6 +167,7 @@ namespace UI
             {
 
                 listView_assaignedpeople.Controls.Add(lbl[9]);
+                counter[test++] = 9;
             }
 
             else
@@ -174,6 +182,7 @@ namespace UI
             {
 
                 listView_assaignedpeople.Controls.Add(lbl[8]);
+                counter[test++] = 8;
             }
 
             else
@@ -188,6 +197,7 @@ namespace UI
             {
 
                 listView_assaignedpeople.Controls.Add(lbl[7]);
+                counter[test++] = 7;
             }
 
             else
@@ -202,6 +212,7 @@ namespace UI
             {
 
                 listView_assaignedpeople.Controls.Add(lbl[6]);
+                counter[test++] = 6;
             }
 
             else
@@ -216,6 +227,7 @@ namespace UI
             {
 
                 listView_assaignedpeople.Controls.Add(lbl[5]);
+                counter[test++] = 5;
             }
 
             else
@@ -230,6 +242,7 @@ namespace UI
             {
 
                 listView_assaignedpeople.Controls.Add(lbl[4]);
+                counter[test++] = 4;
             }
 
             else
@@ -243,6 +256,7 @@ namespace UI
             if (listView_assaignedpeople.Controls.Count<3)
             {
                 listView_assaignedpeople.Controls.Add(lbl[3]);
+                counter[test++] = 3;
             }
 
             else
@@ -257,6 +271,7 @@ namespace UI
             {
 
                 listView_assaignedpeople.Controls.Add(lbl[2]);
+                counter[test++] = 2;
             }
 
             else
@@ -271,6 +286,7 @@ namespace UI
             {
 
                 listView_assaignedpeople.Controls.Add(lbl[1]);
+                counter[test++] = 1;
             }
 
             else
@@ -285,6 +301,7 @@ namespace UI
             {
 
                 listView_assaignedpeople.Controls.Add(lbl[0]);
+                counter[test++] = 0;
             }
 
             else
