@@ -15,9 +15,7 @@ namespace UI
     {
         String Username = "";
         int rows = 0;
-        int counter = 0;
         LinkLabel[] lbl = new LinkLabel[100];
-        LinkLabel[] lbl_assign=new LinkLabel[10];
         
         public Add_Project()
         {
@@ -31,10 +29,6 @@ namespace UI
             for (int i = 0; i < 100; i++)
             {
                 lbl[i] = new LinkLabel();
-                if (i < 10)
-                {
-                    lbl_assign[i] = new LinkLabel();
-                }
                
             }
             lbl[0].Click += new System.EventHandler(lbl1Click);
@@ -52,10 +46,6 @@ namespace UI
             lbl[12].Click += new System.EventHandler(lbl13Click);
             lbl[13].Click += new System.EventHandler(lbl14Click);
             lbl[14].Click += new System.EventHandler(lbl15Click);
-
-            lbl_assign[0].Click += new System.EventHandler(lbl_assign0Click);
-            lbl_assign[1].Click += new System.EventHandler(lbl_assign1Click);
-            lbl_assign[2].Click += new System.EventHandler(lbl_assign2Click);
 
         }
 
@@ -100,7 +90,6 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[14];
                 listView_assaignedpeople.Controls.Add(lbl[14]);
             }
 
@@ -114,7 +103,7 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[13];
+
                 listView_assaignedpeople.Controls.Add(lbl[13]);
             }
 
@@ -128,7 +117,6 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[12];
                 listView_assaignedpeople.Controls.Add(lbl[12]);
             }
 
@@ -142,7 +130,7 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[11];
+
                 listView_assaignedpeople.Controls.Add(lbl[11]);
             }
 
@@ -156,7 +144,7 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[10];
+
                 listView_assaignedpeople.Controls.Add(lbl[10]);
             }
 
@@ -170,7 +158,7 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[9];
+
                 listView_assaignedpeople.Controls.Add(lbl[9]);
             }
 
@@ -184,7 +172,7 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[8];
+
                 listView_assaignedpeople.Controls.Add(lbl[8]);
             }
 
@@ -198,7 +186,7 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[7];
+
                 listView_assaignedpeople.Controls.Add(lbl[7]);
             }
 
@@ -212,7 +200,7 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[6];
+
                 listView_assaignedpeople.Controls.Add(lbl[6]);
             }
 
@@ -226,7 +214,7 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[5];
+
                 listView_assaignedpeople.Controls.Add(lbl[5]);
             }
 
@@ -240,7 +228,7 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[4];
+
                 listView_assaignedpeople.Controls.Add(lbl[4]);
             }
 
@@ -254,7 +242,6 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[3];
                 listView_assaignedpeople.Controls.Add(lbl[3]);
             }
 
@@ -268,7 +255,7 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[2];
+
                 listView_assaignedpeople.Controls.Add(lbl[2]);
             }
 
@@ -282,7 +269,7 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[1];
+
                 listView_assaignedpeople.Controls.Add(lbl[1]);
             }
 
@@ -296,7 +283,7 @@ namespace UI
         {
             if (listView_assaignedpeople.Controls.Count<3)
             {
-                lbl_assign[counter++] = lbl[0];
+
                 listView_assaignedpeople.Controls.Add(lbl[0]);
             }
 
@@ -307,20 +294,6 @@ namespace UI
         }
 
 
-        private void lbl_assign2Click(object sender, EventArgs e)
-        {
-            listView_search.Controls.Add(lbl_assign[0]);
-        }
-
-        private void lbl_assign1Click(object sender, EventArgs e)
-        {
-            listView_search.Controls.Add(lbl_assign[1]);
-        }
-
-        private void lbl_assign0Click(object sender, EventArgs e)
-        {
-            listView_search.Controls.Add(lbl_assign[2]);
-        }
 
         
     }
