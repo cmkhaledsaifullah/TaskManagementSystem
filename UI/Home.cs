@@ -41,7 +41,7 @@ namespace UI
 
         private void ToolStripMenuItem_addproject_Click(object sender, EventArgs e)
         {
-            Add_Project ap = new Add_Project();
+            Add_Project ap = new Add_Project(username);
             ap.Show();
         }
     }
