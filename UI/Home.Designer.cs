@@ -148,7 +148,10 @@
             this.Controls.Add(this.menuStrip_home);
             this.MainMenuStrip = this.menuStrip_home;
             this.Name = "Home";
+<<<<<<< HEAD
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+=======
+>>>>>>> 75161ccc648194458423866c6fad0d9321d3d31b
             this.Text = "Home";
             this.Load += new System.EventHandler(this.Home_Load);
             this.menuStrip_home.ResumeLayout(false);

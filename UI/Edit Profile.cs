@@ -14,8 +14,11 @@ namespace UI
     public partial class Edit_Profile : Form
     {
 
+<<<<<<< HEAD
         //this portion is added by sadman sobhan
         
+=======
+>>>>>>> 75161ccc648194458423866c6fad0d9321d3d31b
         String username = "";
 
         public Edit_Profile()

@@ -59,6 +59,7 @@ D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementS
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Properties.Resources.resources
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Registration.resources
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\UI\bin\Debug\UI.exe.config
 C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\UI\obj\Debug\UI.exe
 C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\UI\obj\Debug\UI.pdb
@@ -79,3 +80,5 @@ C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\
 C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\UI\obj\Debug\UI.Properties.Resources.resources
 C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\UI\obj\Debug\UI.Registration.resources
 C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\UI\obj\Debug\UI.csproj.GenerateResource.Cache
+=======
+>>>>>>> 75161ccc648194458423866c6fad0d9321d3d31b
