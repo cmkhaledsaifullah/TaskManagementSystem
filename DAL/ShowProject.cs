@@ -11,12 +11,12 @@ namespace DAL
 {
     public class ShowProject
     {
-        public List<string> projectDisplay(string username)
+        public string[] projectDisplay(string username)
         {
             Connection cs = new Connection();
             SqlConnection con = cs.CreateConnection();
             int counter=0;
-            List<string> info=new List<string>();
+            String[] info=new String[10];
             try
             {
                 

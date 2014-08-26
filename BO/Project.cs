@@ -25,10 +25,10 @@ namespace BO
             }
         }
 
-        public List<string> showingProject(string username)
+        public string[] showingProject(string username)
         {
             ShowProject sp = new ShowProject();
-            List<string> info = sp.projectDisplay(username);
+            String[] info = sp.projectDisplay(username);
             return info;
         }
     }

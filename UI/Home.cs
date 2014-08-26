@@ -14,6 +14,7 @@ namespace UI
     public partial class Home : Form
     {
         String username = "110231";
+        LinkLabel[] lbl=new LinkLabel[100];
         public Home()
         {
             InitializeComponent();
@@ -23,21 +24,39 @@ namespace UI
         {
             this.username = username;
             InitializeComponent();
+
+            lbl[0].Click += new System.EventHandler(lbl1Click);
+            lbl[1].Click += new System.EventHandler(lbl2Click);
+            lbl[2].Click += new System.EventHandler(lbl3Click);
+            lbl[3].Click += new System.EventHandler(lbl4Click);
+            lbl[4].Click += new System.EventHandler(lbl5Click);
+            lbl[5].Click += new System.EventHandler(lbl6Click);
+            lbl[6].Click += new System.EventHandler(lbl7Click);
+            lbl[7].Click += new System.EventHandler(lbl8Click);
+            lbl[8].Click += new System.EventHandler(lbl9Click);
+            lbl[9].Click += new System.EventHandler(lbl10Click);
+            lbl[10].Click += new System.EventHandler(lbl11Click);
+            lbl[11].Click += new System.EventHandler(lbl12Click);
+            lbl[12].Click += new System.EventHandler(lbl13Click);
+            lbl[13].Click += new System.EventHandler(lbl14Click);
+            lbl[14].Click += new System.EventHandler(lbl15Click);
         }
+
+
 
         private void Home_Load(object sender, EventArgs e)
         {
             Project pj = new Project();
-            List<string> info = pj.showingProject(username);
+            String[] info = pj.showingProject(username);
             int n = 0;
-            int length = info.Count;
+            int length = info.Length;
             for (int i = 0; i < length; i++)
             {
-                Label lbl = new Label();
-                lbl.Text = info[i];
-                lbl.Location = new Point(10, n);
-                lbl.Size = new System.Drawing.Size(300, 30);
-                listView_projects.Controls.Add(lbl);
+                lbl[i] = new LinkLabel();
+                lbl[i].Text = info[i];
+                lbl[i].Location = new Point(10, n);
+                lbl[i].Size = new System.Drawing.Size(300, 30);
+                listView_projects.Controls.Add(lbl[i]);
 
 
                 n = n + 40;
@@ -76,6 +95,81 @@ namespace UI
 
         }
 
+
+        private void lbl1Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl2Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl3Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl4Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl5Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl6Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl7Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl8Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl9Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl10Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl11Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl12Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl13Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl14Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl15Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }
