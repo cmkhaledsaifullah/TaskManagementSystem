@@ -66,5 +66,35 @@ namespace DAL
 
             
         }
+
+        public string[] projectInfo(string projectName)
+        {
+            Connection cs = new Connection();
+            SqlConnection con = cs.CreateConnection();
+            String[] info=new String[8];
+            try
+            {
+
+                String quary = "select * from tbl_project where project='" + projectName + "'";
+                SqlCommand cmd = new SqlCommand(quary, con);
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    reader.Read();
+                    for (int i = 0; i < 8; i++)
+                    {
+                        info[i] = reader[i].ToString();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            con.Close();
+
+            return info;
+
+        }
     }
 }

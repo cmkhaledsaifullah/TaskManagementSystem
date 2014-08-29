@@ -31,5 +31,12 @@ namespace BO
             String[] info = sp.projectDisplay(username);
             return info;
         }
+
+        public string[] showProjectInfo(string projectName)
+        {
+            ShowProject sp = new ShowProject();
+            String[] info = sp.projectInfo(projectName);
+            return info;
+        }
     }
 }
