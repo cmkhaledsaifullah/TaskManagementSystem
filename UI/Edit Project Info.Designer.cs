@@ -140,6 +140,7 @@
             this.linkLabel_remove2.TabIndex = 9;
             this.linkLabel_remove2.TabStop = true;
             this.linkLabel_remove2.Text = "Remove";
+            this.linkLabel_remove2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_remove2_LinkClicked);
             // 
             // linkLabel_remove3
             // 
@@ -152,6 +153,7 @@
             this.linkLabel_remove3.TabIndex = 10;
             this.linkLabel_remove3.TabStop = true;
             this.linkLabel_remove3.Text = "Remove";
+            this.linkLabel_remove3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_remove3_LinkClicked);
             // 
             // button_search
             // 

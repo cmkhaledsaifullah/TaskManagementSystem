@@ -39,26 +39,6 @@ D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementS
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\TaskManagementSystem\UI\obj\Debug\UI.Properties.Resources.resources
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\TaskManagementSystem\UI\obj\Debug\UI.Registration.resources
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\TaskManagementSystem\UI\obj\Debug\UI.csproj.GenerateResource.Cache
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\UI.exe.config
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.exe
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.pdb
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\UI.exe
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\UI.pdb
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\BO.dll
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\DAL.dll
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\BO.pdb
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\DAL.pdb
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Add_Project.resources
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Change_Password.resources
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Edit_Profile.resources
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Home.resources
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Log_In.resources
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Password_Confirmation.resources
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Profile.resources
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Properties.Resources.resources
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Registration.resources
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.csproj.GenerateResource.Cache
 C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\UI\bin\Debug\UI.exe.config
 C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\UI\obj\Debug\UI.exe
 C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\UI\obj\Debug\UI.pdb
@@ -79,8 +59,28 @@ C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\
 C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\UI\obj\Debug\UI.Properties.Resources.resources
 C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\UI\obj\Debug\UI.Registration.resources
 C:\Users\User\Downloads\TaskManagementSystem-master\TaskManagementSystem-master\UI\obj\Debug\UI.csproj.GenerateResource.Cache
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Project_Name.resources
 D:\Academic Study\TaskManagementSystem\UI\bin\Debug\UI.exe.config
 D:\Academic Study\TaskManagementSystem\UI\obj\Debug\UI.exe
 D:\Academic Study\TaskManagementSystem\UI\obj\Debug\UI.pdb
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\UI.exe.config
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\UI.exe
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\UI.pdb
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\BO.dll
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\DAL.dll
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\BO.pdb
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\bin\Debug\DAL.pdb
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Add_Project.resources
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Change_Password.resources
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Edit_Profile.resources
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Edit_Project_Info.resources
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Home.resources
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Log_In.resources
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Password_Confirmation.resources
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Profile.resources
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Project_Name.resources
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Properties.Resources.resources
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Registration.resources
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.csproj.GenerateResource.Cache
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.exe
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.pdb
