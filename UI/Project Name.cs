@@ -15,6 +15,7 @@ namespace UI
     {
         String username="";
         String projectname = "";
+        String[] info = new String[8];
         public Project_Name()
         {
             InitializeComponent();
@@ -30,7 +31,6 @@ namespace UI
         private void Project_Name_Load(object sender, EventArgs e)
         {
             Project pj = new Project();
-            String[] info = new String[8];
             info = pj.showProjectInfo(projectname);
             label_projectname.Text = info[0];
             label_projectdescrip.Text = info[1];
@@ -50,7 +50,7 @@ namespace UI
 
         private void button_edit_Click(object sender, EventArgs e)
         {
-            Edit_Project_Info ep = new Edit_Project_Info();
+            Edit_Project_Info ep = new Edit_Project_Info(info,username);
             ep.Show();
             this.Hide();
         }
