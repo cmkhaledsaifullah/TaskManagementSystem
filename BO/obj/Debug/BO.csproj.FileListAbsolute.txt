@@ -33,3 +33,10 @@ D:\Academic Study\TaskManagementSystem\BO\bin\Debug\DAL.pdb
 D:\Academic Study\TaskManagementSystem\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
 D:\Academic Study\TaskManagementSystem\BO\obj\Debug\BO.dll
 D:\Academic Study\TaskManagementSystem\BO\obj\Debug\BO.pdb
+C:\Users\User\Desktop\TaskManagementSystem\BO\bin\Debug\BO.dll
+C:\Users\User\Desktop\TaskManagementSystem\BO\bin\Debug\BO.pdb
+C:\Users\User\Desktop\TaskManagementSystem\BO\bin\Debug\DAL.dll
+C:\Users\User\Desktop\TaskManagementSystem\BO\bin\Debug\DAL.pdb
+C:\Users\User\Desktop\TaskManagementSystem\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\TaskManagementSystem\BO\obj\Debug\BO.dll
+C:\Users\User\Desktop\TaskManagementSystem\BO\obj\Debug\BO.pdb

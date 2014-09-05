@@ -18,3 +18,7 @@ D:\Academic Study\TaskManagementSystem\DAL\bin\Debug\DAL.dll
 D:\Academic Study\TaskManagementSystem\DAL\bin\Debug\DAL.pdb
 D:\Academic Study\TaskManagementSystem\DAL\obj\Debug\DAL.dll
 D:\Academic Study\TaskManagementSystem\DAL\obj\Debug\DAL.pdb
+C:\Users\User\Desktop\TaskManagementSystem\DAL\bin\Debug\DAL.dll
+C:\Users\User\Desktop\TaskManagementSystem\DAL\bin\Debug\DAL.pdb
+C:\Users\User\Desktop\TaskManagementSystem\DAL\obj\Debug\DAL.dll
+C:\Users\User\Desktop\TaskManagementSystem\DAL\obj\Debug\DAL.pdb
