@@ -81,6 +81,7 @@
             // 
             this.textBox_assaignedto.Location = new System.Drawing.Point(113, 96);
             this.textBox_assaignedto.Name = "textBox_assaignedto";
+            this.textBox_assaignedto.ReadOnly = true;
             this.textBox_assaignedto.Size = new System.Drawing.Size(195, 20);
             this.textBox_assaignedto.TabIndex = 4;
             // 

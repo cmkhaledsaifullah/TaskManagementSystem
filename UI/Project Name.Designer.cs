@@ -39,6 +39,7 @@
             this.label_collab1 = new System.Windows.Forms.Label();
             this.label_collab2 = new System.Windows.Forms.Label();
             this.label_collab3 = new System.Windows.Forms.Label();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.SuspendLayout();
             // 
             // label1
@@ -80,9 +81,9 @@
             // 
             // listView_todolist
             // 
-            this.listView_todolist.Location = new System.Drawing.Point(40, 230);
+            this.listView_todolist.Location = new System.Drawing.Point(12, 230);
             this.listView_todolist.Name = "listView_todolist";
-            this.listView_todolist.Size = new System.Drawing.Size(327, 127);
+            this.listView_todolist.Size = new System.Drawing.Size(433, 154);
             this.listView_todolist.TabIndex = 4;
             this.listView_todolist.UseCompatibleStateImageBehavior = false;
             // 
@@ -136,11 +137,19 @@
             this.label_collab3.Size = new System.Drawing.Size(0, 13);
             this.label_collab3.TabIndex = 10;
             // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Location = new System.Drawing.Point(424, 230);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(21, 154);
+            this.vScrollBar1.TabIndex = 11;
+            // 
             // Project_Name
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(457, 425);
+            this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.label_collab3);
             this.Controls.Add(this.label_collab2);
             this.Controls.Add(this.label_collab1);
@@ -173,5 +182,6 @@
         private System.Windows.Forms.Label label_collab1;
         private System.Windows.Forms.Label label_collab2;
         private System.Windows.Forms.Label label_collab3;
+        private System.Windows.Forms.VScrollBar vScrollBar1;
     }
 }
