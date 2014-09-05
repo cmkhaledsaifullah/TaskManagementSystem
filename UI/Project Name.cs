@@ -102,13 +102,26 @@ namespace UI
                 date.Size = new System.Drawing.Size(100, 12);
                 listView_todolist.Controls.Add(date);
 
+                Label status = new Label();
+                if(information[i,4].Equals("false"))
+                    status.Text = "Assaigned";
+                else
+                    status.Text = "Completed";
+                status.Location = new Point(date.Right, j);
+                status.Font = new Font(status.Font.FontFamily, 8);
+                status.Size = new System.Drawing.Size(70, 12);
+                listView_todolist.Controls.Add(status);
+
 
                
                 lbl_edit[i].Text = "Edit";
-                lbl_edit[i].Location = new Point(date.Right, j);
+                lbl_edit[i].Location = new Point(status.Right, j);
                 lbl_edit[i].Font = new Font(lbl_edit[i].Font.FontFamily, 8);
                 lbl_edit[i].Size = new System.Drawing.Size(lbl_edit[i].Right, 12);
                 listView_todolist.Controls.Add(lbl_edit[i]);
+
+                n += 40;
+                j += 40;
                
             }
         }

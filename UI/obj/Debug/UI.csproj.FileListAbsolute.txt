@@ -151,3 +151,4 @@ C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Registration.resource
 C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.csproj.GenerateResource.Cache
 C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.exe
 C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.pdb
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Edit_To_Do.resources
