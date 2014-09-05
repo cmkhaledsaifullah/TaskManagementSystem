@@ -85,3 +85,26 @@ D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementS
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.exe
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.pdb
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Add_To_Do_List.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\bin\Debug\UI.exe.config
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.exe
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.pdb
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\bin\Debug\UI.exe
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\bin\Debug\UI.pdb
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\bin\Debug\BO.dll
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\bin\Debug\DAL.dll
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\bin\Debug\BO.pdb
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\bin\Debug\DAL.pdb
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.Add_Project.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.Add_To_Do_List.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.Change_Password.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.Edit_Profile.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.Edit_Project_Info.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.Home.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.Log_In.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.Password_Confirmation.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.Profile.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.Project_Name.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.Properties.Resources.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.Registration.resources
+D:\Academic Study\Software Engineering\TaskManagementSystem\UI\obj\Debug\UI.csproj.GenerateResource.Cache

@@ -19,3 +19,10 @@ D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementS
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\BO\obj\Debug\BO.dll
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\BO\obj\Debug\BO.pdb
+D:\Academic Study\Software Engineering\TaskManagementSystem\BO\bin\Debug\BO.dll
+D:\Academic Study\Software Engineering\TaskManagementSystem\BO\bin\Debug\BO.pdb
+D:\Academic Study\Software Engineering\TaskManagementSystem\BO\bin\Debug\DAL.dll
+D:\Academic Study\Software Engineering\TaskManagementSystem\BO\bin\Debug\DAL.pdb
+D:\Academic Study\Software Engineering\TaskManagementSystem\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+D:\Academic Study\Software Engineering\TaskManagementSystem\BO\obj\Debug\BO.dll
+D:\Academic Study\Software Engineering\TaskManagementSystem\BO\obj\Debug\BO.pdb
