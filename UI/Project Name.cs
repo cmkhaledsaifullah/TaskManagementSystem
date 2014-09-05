@@ -54,5 +54,12 @@ namespace UI
             ep.Show();
             this.Hide();
         }
+
+        private void button_addtodolist_Click(object sender, EventArgs e)
+        {
+            Add_To_Do_List at = new Add_To_Do_List(info);
+            at.Show();
+            this.Hide();
+        }
     }
 }

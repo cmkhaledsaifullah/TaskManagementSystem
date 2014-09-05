@@ -94,6 +94,7 @@
             this.button_addtodolist.TabIndex = 5;
             this.button_addtodolist.Text = "Add To Do List";
             this.button_addtodolist.UseVisualStyleBackColor = true;
+            this.button_addtodolist.Click += new System.EventHandler(this.button_addtodolist_Click);
             // 
             // label_projectname
             // 
