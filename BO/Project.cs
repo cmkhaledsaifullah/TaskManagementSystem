@@ -38,5 +38,12 @@ namespace BO
             String[] info = sp.projectInfo(projectName);
             return info;
         }
+
+        public void editingProject(string[] info, string projectname)
+        {
+            Edit_Project ep = new Edit_Project();
+            ep.updateProject(projectname, info[1], info[2], info[3], info[4], info[5], info[6], info[7], info[0]);
+        }
+
     }
 }

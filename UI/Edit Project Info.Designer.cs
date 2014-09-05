@@ -44,6 +44,7 @@
             this.textBox_search = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel_addpeople = new System.Windows.Forms.Panel();
+            this.button_edit = new System.Windows.Forms.Button();
             this.panel_addpeople.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -200,11 +201,22 @@
             this.panel_addpeople.Size = new System.Drawing.Size(470, 263);
             this.panel_addpeople.TabIndex = 16;
             // 
+            // button_edit
+            // 
+            this.button_edit.Location = new System.Drawing.Point(40, 301);
+            this.button_edit.Name = "button_edit";
+            this.button_edit.Size = new System.Drawing.Size(75, 23);
+            this.button_edit.TabIndex = 17;
+            this.button_edit.Text = "Edit";
+            this.button_edit.UseVisualStyleBackColor = true;
+            this.button_edit.Click += new System.EventHandler(this.button_edit_Click);
+            // 
             // Edit_Project_Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(468, 611);
+            this.Controls.Add(this.button_edit);
             this.Controls.Add(this.panel_addpeople);
             this.Controls.Add(this.linkLabel_remove3);
             this.Controls.Add(this.linkLabel_remove2);
@@ -246,5 +258,6 @@
         private System.Windows.Forms.TextBox textBox_search;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel_addpeople;
+        private System.Windows.Forms.Button button_edit;
     }
 }
