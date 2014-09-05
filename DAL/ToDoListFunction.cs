@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -31,6 +32,56 @@ namespace DAL
             }
 
             con.Close();
+        }
+
+        public string[,] showResult(string tablename)
+        {
+            Connection cs = new Connection();
+            SqlConnection con = cs.CreateConnection();
+            String[,] info = new String[100,5];
+            try
+            {
+                
+                String quary = "select * from "+tablename+"";
+                SqlCommand cmd = new SqlCommand(quary, con);
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    for (int i = 0; reader.Read();i++ )
+                    {
+                        info[i,0] = reader["username"].ToString();
+                        info[i,1] = reader["name"].ToString();
+                        info[i,2] = reader["assaignedwork"].ToString();
+                        info[i,3] = reader["duedate"].ToString();
+                        info[i,4] = reader["status"].ToString();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            con.Close();
+
+            return info;
+        }
+
+        public int noOfList(string tablename)
+        {
+
+            Connection cs = new Connection();
+            SqlConnection con = cs.CreateConnection();
+
+            int rows = 0;
+
+            String query = "select * from " + tablename + "";
+            SqlCommand cmd = new SqlCommand(query, con);
+            SqlDataReader reader = cmd.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+            rows = dt.Rows.Count;
+
+            return rows;
         }
     }
 }

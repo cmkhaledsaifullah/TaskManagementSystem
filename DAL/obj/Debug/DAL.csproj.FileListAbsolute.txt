@@ -14,3 +14,7 @@ D:\Academic Study\Software Engineering\TaskManagementSystem\DAL\bin\Debug\DAL.dl
 D:\Academic Study\Software Engineering\TaskManagementSystem\DAL\bin\Debug\DAL.pdb
 D:\Academic Study\Software Engineering\TaskManagementSystem\DAL\obj\Debug\DAL.dll
 D:\Academic Study\Software Engineering\TaskManagementSystem\DAL\obj\Debug\DAL.pdb
+D:\Academic Study\TaskManagementSystem\DAL\bin\Debug\DAL.dll
+D:\Academic Study\TaskManagementSystem\DAL\bin\Debug\DAL.pdb
+D:\Academic Study\TaskManagementSystem\DAL\obj\Debug\DAL.dll
+D:\Academic Study\TaskManagementSystem\DAL\obj\Debug\DAL.pdb

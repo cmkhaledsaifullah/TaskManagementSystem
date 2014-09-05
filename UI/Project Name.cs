@@ -16,6 +16,7 @@ namespace UI
         String username="";
         String projectname = "";
         String[] info = new String[8];
+        Label[] check = new Label[100];
         public Project_Name()
         {
             InitializeComponent();
@@ -46,6 +47,41 @@ namespace UI
             {
                 label_collab3.Text = info[7];
             }
+
+            //To Do List
+            To_Do_List td = new To_Do_List();
+            String[,] information= td.showList(label_projectname.Text);
+            int n = 0,j=20;
+            for (int i = 0; i < information.Length; i++)
+            {
+                check[i] = new Label();
+                check[i].Text = information[i, 2];
+                check[i].Location = new Point(10,n);
+                check[i].Font = new Font(check[i].Font.FontFamily, 12);
+                check[i].Size = new System.Drawing.Size(300, 20);
+                listView_todolist.Controls.Add(check[i]);
+
+                Label lbl = new Label();
+                lbl.Text = information[i, 1]+"-";
+                lbl.Location = new Point(13, j);
+                lbl.Font = new Font(lbl.Font.FontFamily, 8);
+                lbl.Size = new System.Drawing.Size(lbl.Right, 12);
+                listView_todolist.Controls.Add(lbl);
+
+
+                Label date = new Label();
+                date.Text = information[i, 3];
+                date.Location = new Point(lbl.Right, j);
+                date.Font = new Font(lbl.Font.FontFamily, 8);
+                date.Size = new System.Drawing.Size(date.Right, 12);
+                listView_todolist.Controls.Add(date);
+               
+            }
+            //Label lbl = new Label();
+            //lbl.Text = information[0, 1];
+            //lbl.Location = new Point(10, 0);
+            //lbl.Size = new System.Drawing.Size(300, 30);
+            //listView_todolist.Controls.Add(lbl);
         }
 
         private void button_edit_Click(object sender, EventArgs e)
