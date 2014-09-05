@@ -43,11 +43,13 @@
     <Compile Include="AddProject.cs" />
     <Compile Include="Authintication.cs" />
     <Compile Include="Connection.cs" />
+    <Compile Include="Edit Project.cs" />
     <Compile Include="EditProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchPeople.cs" />
     <Compile Include="ShowData.cs" />
     <Compile Include="ShowProject.cs" />
+    <Compile Include="ToDoListFunction.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -50,6 +50,12 @@
     <Compile Include="Add Project.Designer.cs">
       <DependentUpon>Add Project.cs</DependentUpon>
     </Compile>
+    <Compile Include="Add To Do List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add To Do List.Designer.cs">
+      <DependentUpon>Add To Do List.cs</DependentUpon>
+    </Compile>
     <Compile Include="Change Password.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,18 @@
     </Compile>
     <Compile Include="Edit Profile.Designer.cs">
       <DependentUpon>Edit Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit Project Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit Project Info.Designer.cs">
+      <DependentUpon>Edit Project Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit To Do.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit To Do.Designer.cs">
+      <DependentUpon>Edit To Do.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -103,11 +121,20 @@
     <EmbeddedResource Include="Add Project.resx">
       <DependentUpon>Add Project.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Add To Do List.resx">
+      <DependentUpon>Add To Do List.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Change Password.resx">
       <DependentUpon>Change Password.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Edit Profile.resx">
       <DependentUpon>Edit Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit Project Info.resx">
+      <DependentUpon>Edit Project Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit To Do.resx">
+      <DependentUpon>Edit To Do.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
