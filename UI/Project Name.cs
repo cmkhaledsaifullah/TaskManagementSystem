@@ -17,6 +17,7 @@ namespace UI
         String projectname = "";
         String[] info = new String[8];
         Label[] check = new Label[100];
+        LinkLabel[] lbl_edit = new LinkLabel[100];
         public Project_Name()
         {
             InitializeComponent();
@@ -75,13 +76,15 @@ namespace UI
                 date.Font = new Font(lbl.Font.FontFamily, 8);
                 date.Size = new System.Drawing.Size(date.Right, 12);
                 listView_todolist.Controls.Add(date);
+
+                lbl_edit[i] = new LinkLabel();
+                lbl_edit[i].Text = "Edit";
+                lbl_edit[i].Location = new Point(date.Right, j);
+                lbl_edit[i].Font = new Font(lbl_edit[i].Font.FontFamily, 8);
+                lbl_edit[i].Size = new System.Drawing.Size(lbl_edit[i].Right, 12);
+                listView_todolist.Controls.Add(lbl_edit[i]);
                
             }
-            //Label lbl = new Label();
-            //lbl.Text = information[0, 1];
-            //lbl.Location = new Point(10, 0);
-            //lbl.Size = new System.Drawing.Size(300, 30);
-            //listView_todolist.Controls.Add(lbl);
         }
 
         private void button_edit_Click(object sender, EventArgs e)

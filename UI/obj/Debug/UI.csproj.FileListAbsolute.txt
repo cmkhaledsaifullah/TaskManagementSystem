@@ -128,3 +128,26 @@ D:\Academic Study\TaskManagementSystem\UI\obj\Debug\UI.Project_Name.resources
 D:\Academic Study\TaskManagementSystem\UI\obj\Debug\UI.Properties.Resources.resources
 D:\Academic Study\TaskManagementSystem\UI\obj\Debug\UI.Registration.resources
 D:\Academic Study\TaskManagementSystem\UI\obj\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\TaskManagementSystem\UI\bin\Debug\UI.exe.config
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.exe
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.pdb
+C:\Users\User\Desktop\TaskManagementSystem\UI\bin\Debug\UI.exe
+C:\Users\User\Desktop\TaskManagementSystem\UI\bin\Debug\UI.pdb
+C:\Users\User\Desktop\TaskManagementSystem\UI\bin\Debug\BO.dll
+C:\Users\User\Desktop\TaskManagementSystem\UI\bin\Debug\DAL.dll
+C:\Users\User\Desktop\TaskManagementSystem\UI\bin\Debug\BO.pdb
+C:\Users\User\Desktop\TaskManagementSystem\UI\bin\Debug\DAL.pdb
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Add_Project.resources
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Add_To_Do_List.resources
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Change_Password.resources
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Edit_Profile.resources
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Edit_Project_Info.resources
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Home.resources
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Log_In.resources
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Password_Confirmation.resources
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Profile.resources
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Project_Name.resources
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Registration.resources
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.csproj.GenerateResource.Cache
