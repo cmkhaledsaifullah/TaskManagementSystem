@@ -28,7 +28,30 @@ namespace UI
             this.username = username;
             this.projectname = projectname;
             InitializeComponent();
+
+            for (int i = 0; i < 100; i++)
+            {
+                lbl_edit[i] = new LinkLabel();
+            }
+
+            lbl_edit[0].Click += new System.EventHandler(lbl1Click);
+            lbl_edit[1].Click += new System.EventHandler(lbl2Click);
+            lbl_edit[2].Click += new System.EventHandler(lbl3Click);
+            lbl_edit[3].Click += new System.EventHandler(lbl4Click);
+            lbl_edit[4].Click += new System.EventHandler(lbl5Click);
+            lbl_edit[5].Click += new System.EventHandler(lbl6Click);
+            lbl_edit[6].Click += new System.EventHandler(lbl7Click);
+            lbl_edit[7].Click += new System.EventHandler(lbl8Click);
+            lbl_edit[8].Click += new System.EventHandler(lbl9Click);
+            lbl_edit[9].Click += new System.EventHandler(lbl10Click);
+            lbl_edit[10].Click += new System.EventHandler(lbl11Click);
+            lbl_edit[11].Click += new System.EventHandler(lbl12Click);
+            lbl_edit[12].Click += new System.EventHandler(lbl13Click);
+            lbl_edit[13].Click += new System.EventHandler(lbl14Click);
+            lbl_edit[14].Click += new System.EventHandler(lbl15Click);
         }
+
+        
 
         private void Project_Name_Load(object sender, EventArgs e)
         {
@@ -55,12 +78,14 @@ namespace UI
             int n = 0,j=20;
             for (int i = 0; i < information.Length; i++)
             {
+
                 check[i] = new Label();
                 check[i].Text = information[i, 2];
                 check[i].Location = new Point(10,n);
                 check[i].Font = new Font(check[i].Font.FontFamily, 12);
                 check[i].Size = new System.Drawing.Size(300, 20);
                 listView_todolist.Controls.Add(check[i]);
+
 
                 Label lbl = new Label();
                 lbl.Text = information[i, 1]+"-";
@@ -74,15 +99,29 @@ namespace UI
                 date.Text = information[i, 3];
                 date.Location = new Point(lbl.Right, j);
                 date.Font = new Font(lbl.Font.FontFamily, 8);
-                date.Size = new System.Drawing.Size(date.Right, 12);
+                date.Size = new System.Drawing.Size(100, 12);
                 listView_todolist.Controls.Add(date);
 
-                lbl_edit[i] = new LinkLabel();
+                Label status = new Label();
+                if(information[i,4].Equals("false"))
+                    status.Text = "Assaigned";
+                else
+                    status.Text = "Completed";
+                status.Location = new Point(date.Right, j);
+                status.Font = new Font(status.Font.FontFamily, 8);
+                status.Size = new System.Drawing.Size(70, 12);
+                listView_todolist.Controls.Add(status);
+
+
+               
                 lbl_edit[i].Text = "Edit";
-                lbl_edit[i].Location = new Point(date.Right, j);
+                lbl_edit[i].Location = new Point(status.Right, j);
                 lbl_edit[i].Font = new Font(lbl_edit[i].Font.FontFamily, 8);
                 lbl_edit[i].Size = new System.Drawing.Size(lbl_edit[i].Right, 12);
                 listView_todolist.Controls.Add(lbl_edit[i]);
+
+                n += 40;
+                j += 40;
                
             }
         }
@@ -99,6 +138,81 @@ namespace UI
             Add_To_Do_List at = new Add_To_Do_List(info);
             at.Show();
             this.Hide();
+        }
+
+        private void lbl1Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl2Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl3Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl4Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl5Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl6Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl7Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl8Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl9Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl10Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl11Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl12Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl13Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl14Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void lbl15Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }

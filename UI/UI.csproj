@@ -74,6 +74,12 @@
     <Compile Include="Edit Project Info.Designer.cs">
       <DependentUpon>Edit Project Info.cs</DependentUpon>
     </Compile>
+    <Compile Include="Edit To Do.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit To Do.Designer.cs">
+      <DependentUpon>Edit To Do.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Edit Project Info.resx">
       <DependentUpon>Edit Project Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit To Do.resx">
+      <DependentUpon>Edit To Do.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>

@@ -129,8 +129,6 @@ D:\Academic Study\TaskManagementSystem\UI\obj\Debug\UI.Properties.Resources.reso
 D:\Academic Study\TaskManagementSystem\UI\obj\Debug\UI.Registration.resources
 D:\Academic Study\TaskManagementSystem\UI\obj\Debug\UI.csproj.GenerateResource.Cache
 C:\Users\User\Desktop\TaskManagementSystem\UI\bin\Debug\UI.exe.config
-C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.exe
-C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.pdb
 C:\Users\User\Desktop\TaskManagementSystem\UI\bin\Debug\UI.exe
 C:\Users\User\Desktop\TaskManagementSystem\UI\bin\Debug\UI.pdb
 C:\Users\User\Desktop\TaskManagementSystem\UI\bin\Debug\BO.dll
@@ -151,3 +149,6 @@ C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Project_Name.resource
 C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Properties.Resources.resources
 C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Registration.resources
 C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.exe
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.pdb
+C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Edit_To_Do.resources
