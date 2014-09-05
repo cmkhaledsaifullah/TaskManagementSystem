@@ -23,7 +23,7 @@ namespace DAL
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.ExecuteNonQuery();
 
-                MessageBox.Show(name+" "+description+" "+user1+" "+name1+" "+user2+" "+name2+" "+user3+" "+name3+" Edited!!!!");
+               // MessageBox.Show(name+" "+description+" "+user1+" "+name1+" "+user2+" "+name2+" "+user3+" "+name3+" Edited!!!!");
                 con.Close();
             }
 
@@ -31,6 +31,30 @@ namespace DAL
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        public void updateTable(string oldname, string newname)
+        {
+            Connection cs = new Connection();
+            SqlConnection con = cs.CreateConnection();
+
+            //try
+            //{
+            String query = "sp_rename '" + oldname + 
+                    "','" + newname + "'";
+
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.ExecuteNonQuery();
+
+                MessageBox.Show(oldname + " "+" Edited");
+                con.Close();
+            //}
+
+            //catch (Exception ex)
+            //{
+                //MessageBox.Show(ex.Message);
+            //}
         }
     }
 }

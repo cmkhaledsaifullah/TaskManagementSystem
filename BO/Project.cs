@@ -43,6 +43,24 @@ namespace BO
         {
             Edit_Project ep = new Edit_Project();
             ep.updateProject(projectname, info[1], info[2], info[3], info[4], info[5], info[6], info[7], info[0]);
+
+            if (projectname != info[0])
+            {
+                String[] new_token = projectname.Split();
+                String new_table = "";
+                String old_table = "";
+                String[] old_token = info[0].Split();
+                for (int k = 0; k < new_token.Length; k++)
+                {
+                    new_table += new_token[k];
+                }
+
+                for (int k = 0; k < old_token.Length; k++)
+                {
+                    old_table += old_token[k];
+                }
+                ep.updateTable(old_table, new_table);
+            }
         }
 
     }
