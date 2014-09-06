@@ -50,9 +50,9 @@
     <Compile Include="To Do List.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAL\DAL.csproj">
+    <ProjectReference Include="..\DAL\Model.csproj">
       <Project>{cfeeff84-a007-4077-9411-587e67bc646a}</Project>
-      <Name>DAL</Name>
+      <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

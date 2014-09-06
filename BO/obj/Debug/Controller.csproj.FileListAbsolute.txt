@@ -1,0 +1,7 @@
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\BO\bin\Debug\BO.dll
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\BO\bin\Debug\BO.pdb
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\BO\bin\Debug\DAL.dll
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\BO\bin\Debug\DAL.pdb
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\BO\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\BO\obj\Debug\BO.dll
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\BO\obj\Debug\BO.pdb

@@ -30,7 +30,7 @@ namespace UI
 
             else if(ap.authenticationCheck(textBox_username.Text,textBox_password.Text))
             {
-                Home hm=new Home();
+                Home hm=new Home(textBox_username.Text);
                 this.Hide();
                 hm.Show();
             }

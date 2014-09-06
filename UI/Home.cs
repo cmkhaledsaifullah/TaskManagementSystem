@@ -13,31 +13,11 @@ namespace UI
 {
     public partial class Home : Form
     {
-        String username = "110231";
+        String username = "";
         LinkLabel[] lbl=new LinkLabel[100];
         public Home()
         {
             InitializeComponent();
-            for (int i = 0; i < 100; i++)
-            {
-                lbl[i] = new LinkLabel();
-            }
-
-            lbl[0].Click += new System.EventHandler(lbl1Click);
-            lbl[1].Click += new System.EventHandler(lbl2Click);
-            lbl[2].Click += new System.EventHandler(lbl3Click);
-            lbl[3].Click += new System.EventHandler(lbl4Click);
-            lbl[4].Click += new System.EventHandler(lbl5Click);
-            lbl[5].Click += new System.EventHandler(lbl6Click);
-            lbl[6].Click += new System.EventHandler(lbl7Click);
-            lbl[7].Click += new System.EventHandler(lbl8Click);
-            lbl[8].Click += new System.EventHandler(lbl9Click);
-            lbl[9].Click += new System.EventHandler(lbl10Click);
-            lbl[10].Click += new System.EventHandler(lbl11Click);
-            lbl[11].Click += new System.EventHandler(lbl12Click);
-            lbl[12].Click += new System.EventHandler(lbl13Click);
-            lbl[13].Click += new System.EventHandler(lbl14Click);
-            lbl[14].Click += new System.EventHandler(lbl15Click);
         }
 
         public Home(string username)
@@ -74,15 +54,20 @@ namespace UI
             String[] info = pj.showingProject(username);
             int n = 0;
             int length = info.Length;
-            for (int i = 0; i < length; i++)
+
+            if (info != null && info.Length > 0)
             {
-                lbl[i].Text = info[i];
-                lbl[i].Location = new Point(10, n);
-                lbl[i].Size = new System.Drawing.Size(300, 30);
-                listView_projects.Controls.Add(lbl[i]);
+
+                for (int i = 0; i < length; i++)
+                {
+                    lbl[i].Text = info[i];
+                    lbl[i].Location = new Point(10, n);
+                    lbl[i].Size = new System.Drawing.Size(300, 30);
+                    listView_projects.Controls.Add(lbl[i]);
 
 
-                n = n + 40;
+                    n = n + 40;
+                }
             }
         }
 

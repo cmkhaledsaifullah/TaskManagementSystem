@@ -6,10 +6,6 @@ D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementS
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\TaskManagementSystem\DAL\bin\Debug\DAL.pdb
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\TaskManagementSystem\DAL\obj\Debug\DAL.dll
 D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\TaskManagementSystem\DAL\obj\Debug\DAL.pdb
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\DAL\bin\Debug\DAL.dll
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\DAL\bin\Debug\DAL.pdb
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\DAL\obj\Debug\DAL.dll
-D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\DAL\obj\Debug\DAL.pdb
 D:\Academic Study\Software Engineering\TaskManagementSystem\DAL\bin\Debug\DAL.dll
 D:\Academic Study\Software Engineering\TaskManagementSystem\DAL\bin\Debug\DAL.pdb
 D:\Academic Study\Software Engineering\TaskManagementSystem\DAL\obj\Debug\DAL.dll
@@ -22,3 +18,7 @@ C:\Users\User\Desktop\TaskManagementSystem\DAL\bin\Debug\DAL.dll
 C:\Users\User\Desktop\TaskManagementSystem\DAL\bin\Debug\DAL.pdb
 C:\Users\User\Desktop\TaskManagementSystem\DAL\obj\Debug\DAL.dll
 C:\Users\User\Desktop\TaskManagementSystem\DAL\obj\Debug\DAL.pdb
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\DAL\bin\Debug\DAL.dll
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\DAL\bin\Debug\DAL.pdb
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\DAL\obj\Debug\DAL.dll
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\DAL\obj\Debug\DAL.pdb
