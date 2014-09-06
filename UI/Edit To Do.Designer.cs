@@ -171,6 +171,7 @@
             this.button_edit.TabIndex = 25;
             this.button_edit.Text = "Edit";
             this.button_edit.UseVisualStyleBackColor = true;
+            this.button_edit.Click += new System.EventHandler(this.button_edit_Click);
             // 
             // Edit_To_Do
             // 

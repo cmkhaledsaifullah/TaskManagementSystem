@@ -83,5 +83,28 @@ namespace DAL
 
             return rows;
         }
+
+        public void updateTodo(string username, string name, string work, string date, string status, string tablename, string assaingn)
+        {
+            Connection cs = new Connection();
+            SqlConnection con = cs.CreateConnection();
+
+            try
+            {
+                String query = "UPDATE "+tablename+" SET username='" + username + "',name='" + name + "',assaignedwork='" + work + "',duedate='" + date + "',status='" + status +  "'where assaignedwork='" + assaingn + "'";
+
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.ExecuteNonQuery();
+
+                 MessageBox.Show(" Edited!!!!");
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

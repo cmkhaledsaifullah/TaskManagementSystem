@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BO;
 
 namespace UI
 {
@@ -85,6 +86,21 @@ namespace UI
             textBox_assaignedto.Text = label_colab3.Text;
             name = info[7];
             username = info[6];
+        }
+
+        private void button_edit_Click(object sender, EventArgs e)
+        {
+            To_Do_List td = new To_Do_List();
+            if (checkBox_complete.Checked)
+            {
+                status = "true";
+            }
+            else
+            {
+                status = "false";
+            }
+            //MessageBox.Show(username+" "+name+" "+status);
+            td.editToDo(username, name, textBox_name.Text, dateTimePicker_date.Value.ToString(), status, info[0],work);
         }
     }
 }

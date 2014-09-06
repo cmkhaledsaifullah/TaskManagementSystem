@@ -38,5 +38,17 @@ namespace BO
             info = tf.showResult(table);
             return new MyReturnType { MyStringArray = info, MyINT =rows };
         }
+     
+        public void editToDo(string username,string name,string work,string date,string status,string tablename,string assaigned)
+        {
+            String[] token = tablename.Split();
+            string table = "";
+            for (int k = 0; k < token.Length; k++)
+            {
+                table += token[k];
+            }
+            
+            tf.updateTodo(username, name, work, date, status, table, assaigned);
+        }
     }
 }
