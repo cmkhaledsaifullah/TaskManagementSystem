@@ -23,7 +23,7 @@ namespace BO
             tf.addToDo(username, name, todo, date, table);
         }
 
-        public string[,] showList(string tablename)
+        public MyReturnType showList(string tablename)
         {
 
             String[] token = tablename.Split();
@@ -36,7 +36,7 @@ namespace BO
             int rows = tf.noOfList(table);
             String[,] info = new String[rows+1, 5];
             info = tf.showResult(table);
-            return info;
+            return new MyReturnType { MyStringArray = info, MyINT =rows };
         }
     }
 }
