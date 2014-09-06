@@ -18,6 +18,7 @@ namespace UI
         String[] info = new String[8];
         //Label[] check = new Label[100];
         LinkLabel[] lbl_edit = new LinkLabel[100];
+        MyReturnType information;
         public Project_Name()
         {
             InitializeComponent();
@@ -74,7 +75,7 @@ namespace UI
 
             //To Do List
             To_Do_List td = new To_Do_List();
-            MyReturnType information= td.showList(label_projectname.Text);
+            information= td.showList(label_projectname.Text);
 
             if (information!=null && information.MyINT > 0)
             {
@@ -104,20 +105,20 @@ namespace UI
                     date.Size = new System.Drawing.Size(100, 12);
                     listView_todolist.Controls.Add(date);
 
-                    //Label status = new Label();
-                    //if(information[i,4].Equals("false"))
-                    //  status.Text = "Assaigned";
-                    //else
-                    //  status.Text = "Completed";
-                    //status.Location = new Point(date.Right, j);
-                    //status.Font = new Font(status.Font.FontFamily, 8);
-                    //status.Size = new System.Drawing.Size(70, 12);
-                    //listView_todolist.Controls.Add(status);
+                    Label status = new Label();
+                    if(information.MyStringArray[i,4].Equals("false"))
+                      status.Text = "Assaigned";
+                    else
+                      status.Text = "Completed";
+                    status.Location = new Point(date.Right, j);
+                    status.Font = new Font(status.Font.FontFamily, 8);
+                    status.Size = new System.Drawing.Size(70, 12);
+                    listView_todolist.Controls.Add(status);
 
 
 
                     lbl_edit[i].Text = "Edit";
-                    lbl_edit[i].Location = new Point(date.Right, j);
+                    lbl_edit[i].Location = new Point(status.Right, j);
                     lbl_edit[i].Font = new Font(lbl_edit[i].Font.FontFamily, 8);
                     lbl_edit[i].Size = new System.Drawing.Size(lbl_edit[i].Right, 12);
                     listView_todolist.Controls.Add(lbl_edit[i]);
@@ -145,12 +146,16 @@ namespace UI
 
         private void lbl1Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            Edit_To_Do ed=new Edit_To_Do(info,information.MyStringArray[0,0],information.MyStringArray[0,1],information.MyStringArray[0,2],information.MyStringArray[0,3],information.MyStringArray[0,4]);
+            ed.Show();
+            this.Hide();
         }
 
         private void lbl2Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            Edit_To_Do ed=new Edit_To_Do(info,information.MyStringArray[1,0],information.MyStringArray[1,1],information.MyStringArray[1,2],information.MyStringArray[1,3],information.MyStringArray[1,4]);
+            ed.Show();
+            this.Hide();
         }
 
         private void lbl3Click(object sender, EventArgs e)
