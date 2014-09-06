@@ -133,7 +133,7 @@
             // 
             // listView_projects
             // 
-            this.listView_projects.Location = new System.Drawing.Point(3, 18);
+            this.listView_projects.Location = new System.Drawing.Point(11, 20);
             this.listView_projects.Name = "listView_projects";
             this.listView_projects.Size = new System.Drawing.Size(538, 203);
             this.listView_projects.TabIndex = 0;
