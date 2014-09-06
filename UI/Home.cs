@@ -54,15 +54,20 @@ namespace UI
             String[] info = pj.showingProject(username);
             int n = 0;
             int length = info.Length;
-            for (int i = 0; i < length; i++)
+
+            if (info != null && info.Length > 0)
             {
-                lbl[i].Text = info[i];
-                lbl[i].Location = new Point(10, n);
-                lbl[i].Size = new System.Drawing.Size(300, 30);
-                listView_projects.Controls.Add(lbl[i]);
+
+                for (int i = 0; i < length; i++)
+                {
+                    lbl[i].Text = info[i];
+                    lbl[i].Location = new Point(10, n);
+                    lbl[i].Size = new System.Drawing.Size(300, 30);
+                    listView_projects.Controls.Add(lbl[i]);
 
 
-                n = n + 40;
+                    n = n + 40;
+                }
             }
         }
 

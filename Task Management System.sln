@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{FEC87B8B-16E2-4E6D-AD6B-213F410518FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "UI\View.csproj", "{FEC87B8B-16E2-4E6D-AD6B-213F410518FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{CFEEFF84-A007-4077-9411-587E67BC646A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "DAL\Model.csproj", "{CFEEFF84-A007-4077-9411-587E67BC646A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BO", "BO\BO.csproj", "{3E9396DA-1A52-4626-AD76-E8090CF1693A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "BO\Controller.csproj", "{3E9396DA-1A52-4626-AD76-E8090CF1693A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
