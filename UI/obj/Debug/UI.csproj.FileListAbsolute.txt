@@ -152,3 +152,4 @@ C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.csproj.GenerateResour
 C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.exe
 C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.pdb
 C:\Users\User\Desktop\TaskManagementSystem\UI\obj\Debug\UI.Edit_To_Do.resources
+D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\TaskManagementSystem\UI\obj\Debug\UI.Edit_To_Do.resources

@@ -12,7 +12,7 @@ namespace DAL
         public SqlConnection CreateConnection()
         {
             SqlConnection con = new SqlConnection();
-            con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=D:\Academic Study\Software Engineering\db_task.mdf;Integrated Security=True;Connect Timeout=30");
+            con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=D:\Literature\KU\3rd Year\2nd Term\Software Engineering\Lab Work\db_task.mdf;Integrated Security=True;Connect Timeout=30");
             con.Open();
 
             return con;

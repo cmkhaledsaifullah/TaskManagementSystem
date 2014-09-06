@@ -54,6 +54,7 @@
             this.linkLabel_add_colab3.TabStop = true;
             this.linkLabel_add_colab3.Text = "Add";
             this.linkLabel_add_colab3.Visible = false;
+            this.linkLabel_add_colab3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_add_colab3_LinkClicked);
             // 
             // linkLabel_add_colab2
             // 
@@ -65,6 +66,7 @@
             this.linkLabel_add_colab2.TabStop = true;
             this.linkLabel_add_colab2.Text = "Add";
             this.linkLabel_add_colab2.Visible = false;
+            this.linkLabel_add_colab2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_add_colab2_LinkClicked);
             // 
             // linkLabel_add_colab1
             // 
@@ -76,6 +78,7 @@
             this.linkLabel_add_colab1.TabStop = true;
             this.linkLabel_add_colab1.Text = "Add";
             this.linkLabel_add_colab1.Visible = false;
+            this.linkLabel_add_colab1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_add_colab1_LinkClicked);
             // 
             // label_colab3
             // 
@@ -190,6 +193,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Edit_To_Do";
             this.Text = "Edit To Do";
+            this.Load += new System.EventHandler(this.Edit_To_Do_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
